@@ -1,7 +1,5 @@
 def square_array(array)
   new_array = []
-  array.each do |i|
-    new_array << i*i 
+  array.each{|i|new_array << i*i} 
   new_array.count
-end
 end
