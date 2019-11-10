@@ -4,3 +4,4 @@ def square_array(array)
     new_array << i*i 
   new_array.count
 end
+end
